@@ -29,6 +29,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
         </dependency>
+        
+        <dependency>
+		    <groupId>com.alibaba.csp</groupId>
+		    <artifactId>sentinel-transport-simple-http</artifactId>
+		</dependency>
 
         <dependency>
             <groupId>ch.qos.logback</groupId>

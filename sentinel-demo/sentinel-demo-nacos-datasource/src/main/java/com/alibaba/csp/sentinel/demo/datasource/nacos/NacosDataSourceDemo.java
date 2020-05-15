@@ -39,9 +39,9 @@ public class NacosDataSourceDemo {
     // nacos server ip
     private static final String remoteAddress = "localhost";
     // nacos group
-    private static final String groupId = "Sentinel:Demo";
+    private static final String groupId = "SENTINEL_GROUP";
     // nacos dataId
-    private static final String dataId = "com.alibaba.csp.sentinel.demo.flow.rule";
+    private static final String dataId = "com.alibaba.csp.sentinel.demo.datasource.nacos.NacosDataSourceDemo-flow-rules";
     // if change to true, should be config NACOS_NAMESPACE_ID
     private static boolean isDemoNamespace = false;
     // fill your namespace id,if you want to use namespace. for example: 0f5c7314-4983-4022-ad5a-347de1d1057d,you can get it on nacos's console

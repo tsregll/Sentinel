@@ -27,8 +27,8 @@ public class NacosConfigSender {
 
     public static void main(String[] args) throws Exception {
         final String remoteAddress = "localhost";
-        final String groupId = "Sentinel:Demo";
-        final String dataId = "com.alibaba.csp.sentinel.demo.flow.rule";
+        final String groupId = "SENTINEL_GROUP";
+        final String dataId = "com.alibaba.csp.sentinel.demo.datasource.nacos.NacosDataSourceDemo-flow-rules";
         final String rule = "[\n"
             + "  {\n"
             + "    \"resource\": \"TestResource\",\n"
